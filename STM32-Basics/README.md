@@ -54,6 +54,8 @@ The design aims to enhance skills in **schematic creation, PCB layout, and embed
 - **UART Connector** for serial communication.
   
 - **I2C Connector** for sensor or peripheral integration.
+
+  ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/STM32-Basics/STM32-Based%20Schematic%20Design.png?raw=true)
   
 
 ## Possible Applications
