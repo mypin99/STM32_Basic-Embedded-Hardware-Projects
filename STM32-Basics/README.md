@@ -56,6 +56,8 @@ The design aims to enhance skills in **schematic creation, PCB layout, and embed
 - **I2C Connector** for sensor or peripheral integration.
 
   ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/STM32-Basics/STM32-Based%20Schematic%20Design.png?raw=true)
+
+  ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/STM32-Basics/STM32-Based%20Hardware%20PCB.png?raw=true)
   
 
 ## Possible Applications
