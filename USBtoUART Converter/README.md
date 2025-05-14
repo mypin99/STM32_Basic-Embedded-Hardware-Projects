@@ -44,6 +44,7 @@ Package	CP2102 – QFN-28
 ESD Protection	TVS Diodes (on RX, TX, D+, D−, VBUS)
 
 https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART.png?raw=true
+https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART%203D%20View.png?raw=true
 
 Applications
 Microcontroller communication via USB
