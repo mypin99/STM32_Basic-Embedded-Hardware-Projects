@@ -1,17 +1,23 @@
 USB to UART Bridge Converter – Enhanced with ESD Protection
+
 Overview
+
 This project is a custom-designed USB to UART bridge converter based on the CP2102 chip. It improves upon common commercial modules by incorporating robust ESD protection on all critical lines (RX, TX, VBUS, and USB differential pairs), increasing device longevity and overall reliability.
 
 The converter is ideal for embedded systems, development boards, or any USB-to-serial communication applications that require stability, USB compatibility, and protection from electrostatic damage.
 
 Key Features
-✅ CP2102 USB-to-UART Bridge
+
+CP2102 USB-to-UART Bridge
+
 Converts USB signals to UART with full driver support (Windows, Linux, macOS)
 
-⚡ Integrated 5V to 3.3V Regulator
+Integrated 5V to 3.3V Regulator
+
 Provides regulated 3.3V output for external circuits from USB VBUS
 
-🔒 ESD Protection Added
+ESD Protection Added
+
 TVS diodes added to:
 
 RX and TX lines
@@ -19,6 +25,7 @@ RX and TX lines
 USB D+ and D− differential lines
 
 VBUS line
+
 Protects against electrostatic discharge and enhances reliability
 
 🔌 Power Output Options
@@ -35,18 +42,28 @@ TX
 Ready for connection to microcontrollers, FPGAs, or serial peripherals
 
 Technical Specifications
+
 Parameter	Description
+
 USB Interface	USB 2.0 Full-Speed
+
 UART Baud Rates	Up to 1 Mbps
+
 Regulator Output	3.3V @ 100 mA (typical)
+
 Power Input	5V via USB
+
 Package	CP2102 – QFN-28
+
 ESD Protection	TVS Diodes (on RX, TX, D+, D−, VBUS)
 
-https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART.png?raw=true
-https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART%203D%20View.png?raw=true
+ ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART.png?raw=true)
+ 
+![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART%203D%20View.png?raw=true)
+
 
 Applications
+
 Microcontroller communication via USB
 
 Firmware uploading and serial monitoring
@@ -55,24 +72,11 @@ Debugging embedded systems
 
 Safe serial communication in electrostatic environments
 
-Getting Started
-Connect the USB to your PC
-Drivers are usually installed automatically. If not, download them from Silicon Labs.
-
-Use a terminal program (e.g., TeraTerm, PuTTY, minicom)
-Connect to the assigned COM port with appropriate baud rate and settings.
-
-Connect RX/TX
-Wire the RX pin of this module to the TX pin of your device and vice versa.
-
-Power Your Circuit
-
-Use the 5V pin to power 5V devices directly from USB
-
-Use the 3.3V pin to power lower voltage circuits (max ~100mA)
 
 Schematic and PCB
+
 This project includes both the schematic and PCB layout files.
+
 ✅ CP2102 footprint and routing
 
 ✅ Optimized for signal integrity and minimal EMI
@@ -81,6 +85,7 @@ This project includes both the schematic and PCB layout files.
 
 
 Future Improvements
+
 Add LED indicators for TX/RX activity
 
 Integrate fuse for overcurrent protection
