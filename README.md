@@ -1,58 +1,85 @@
-# Embedded Hardware Projects Repository
+USB to UART Bridge Converter – Enhanced with ESD Protection
+Overview
+This project is a custom-designed USB to UART bridge converter based on the CP2102 chip. It improves upon common commercial modules by incorporating robust ESD protection on all critical lines (RX, TX, VBUS, and USB differential pairs), increasing device longevity and overall reliability.
 
-## Overview
+The converter is ideal for embedded systems, development boards, or any USB-to-serial communication applications that require stability, USB compatibility, and protection from electrostatic damage.
 
-This repository serves as a collection of **basic embedded hardware projects** designed for **learning and skill enhancement** in **schematic design, PCB layout, and embedded systems development**. Each project in this repository is aimed at improving my understanding of **electronics design principles, hardware debugging, firmware development, and best practices in PCB design**.
+Key Features
+✅ CP2102 USB-to-UART Bridge
+Converts USB signals to UART with full driver support (Windows, Linux, macOS)
 
-## Purpose & Goals
+⚡ Integrated 5V to 3.3V Regulator
+Provides regulated 3.3V output for external circuits from USB VBUS
 
-The main objectives of this repository include:
+🔒 ESD Protection Added
+TVS diodes added to:
 
-- **Developing hands-on experience** in **embedded hardware design**.
-  
-- **Practicing schematic and PCB layout techniques** using **KiCad**.
+RX and TX lines
 
-- **Exploring various microcontrollers** (STM32, AVR, PIC, ESP, etc.).
+USB D+ and D− differential lines
 
-  
-- **Enhancing firmware development skills** in **C/C++**.
+VBUS line
+Protects against electrostatic discharge and enhances reliability
+
+🔌 Power Output Options
+
+5V directly from USB VBUS
+
+3.3V from onboard CP2102 regulator
+
+🔄 Standard UART Output
+
+RX
+
+TX
+Ready for connection to microcontrollers, FPGAs, or serial peripherals
+
+Technical Specifications
+Parameter	Description
+USB Interface	USB 2.0 Full-Speed
+UART Baud Rates	Up to 1 Mbps
+Regulator Output	3.3V @ 100 mA (typical)
+Power Input	5V via USB
+Package	CP2102 – QFN-28
+ESD Protection	TVS Diodes (on RX, TX, D+, D−, VBUS)
+
+Applications
+Microcontroller communication via USB
+
+Firmware uploading and serial monitoring
+
+Debugging embedded systems
+
+Safe serial communication in electrostatic environments
+
+Getting Started
+Connect the USB to your PC
+Drivers are usually installed automatically. If not, download them from Silicon Labs.
+
+Use a terminal program (e.g., TeraTerm, PuTTY, minicom)
+Connect to the assigned COM port with appropriate baud rate and settings.
+
+Connect RX/TX
+Wire the RX pin of this module to the TX pin of your device and vice versa.
+
+Power Your Circuit
+
+Use the 5V pin to power 5V devices directly from USB
+
+Use the 3.3V pin to power lower voltage circuits (max ~100mA)
+
+Schematic and PCB
+This project includes both the schematic and PCB layout files.
+✅ CP2102 footprint and routing
+
+✅ Optimized for signal integrity and minimal EMI
+
+✅ TVS diode placement for maximum protection
 
 
-- **Understanding design rules and industry best practices**.
+Future Improvements
+Add LED indicators for TX/RX activity
 
+Integrate fuse for overcurrent protection
 
-- **Testing and validating hardware prototypes**.
-
-
-## Key Learning Areas
-
-Projects in this repository will cover:
-
-- **Microcontroller-based designs** (STM32, ESP32, etc.).
-
-  
-- **Power management & circuit protection**.
-  
-- **Analog & digital signal processing**.
-  
-- **Wireless communication (BLE, Wi-Fi, LoRa, etc.)**.
-  
-- **Interfacing sensors, displays, and peripherals**.
-  
-- **Debugging and firmware development**.
-  
-
-## Contribution & Future Expansion
-
-As I progress in my embedded systems journey, I plan to:
-
-- **Expand the repository with more complex designs**.
-  
-- **Optimize PCB layouts for better efficiency and manufacturability**.
-  
-- **Integrate more advanced concepts such as AI on embedded systems**.
-  
-- **Document learnings and challenges encountered during development**.
-  
-
-**Follow my journey in embedded systems and hardware design!** 
+Optional RTS/CTS flow control support
