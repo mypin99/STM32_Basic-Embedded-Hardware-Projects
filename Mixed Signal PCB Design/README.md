@@ -52,6 +52,9 @@ RGB status LED with PWM control
 
 Compact PCB form factor with proper ground and power separation
 
+![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART.png?raw=true)
+ 
+
 
 Applications
 Audio waveform generation and analysis
