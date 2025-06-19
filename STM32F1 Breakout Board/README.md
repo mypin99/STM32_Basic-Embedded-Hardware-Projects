@@ -49,6 +49,8 @@ STM32CubeIDE: Firmware and pin mapping
 
 ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/STM32F1%20Breakout%20Board/STM32F1%20Breakout%20board%203D%20View.png?raw=true)
 
+![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/STM32F1%20Breakout%20Board/STM32F1%20Breakout%20board%20pcb%20layout.png?raw=true)
+
 ## Usage
 Flash your STM32 code using ST-Link over SWD
 
