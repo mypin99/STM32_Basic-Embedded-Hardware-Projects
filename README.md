@@ -1,4 +1,4 @@
-Embedded Systems Roadmap – Project Repository
+## Embedded Systems Roadmap – Project Repository
 
 Welcome to my Embedded Systems Roadmap Repository, where I document, design, and share the hardware projects I’ve built as part of my journey into embedded systems, PCB design, and hardware interfacing.
 
@@ -35,7 +35,7 @@ Each subfolder in this repository is a complete design project containing:
 
 
 
-🎯 Goals of This Repository
+## Goals of This Repository
 
 Document my hardware learning path
 
@@ -51,7 +51,7 @@ Share reusable open-source designs with the community
 
 
 
-Tools and Skills Used
+## Tools and Skills Used
 
 KiCad (schematics and layout)
 
@@ -66,7 +66,7 @@ Soldering and testing
 Git + GitHub for version control
 
 
-About Me
+## About Me
 I'm an electrical and embedded systems engineer passionate about hardware-software co-design, automation, and reliable system architecture. This repository reflects my continuous learning journey through practical experimentation and real-world builds.
 
 
