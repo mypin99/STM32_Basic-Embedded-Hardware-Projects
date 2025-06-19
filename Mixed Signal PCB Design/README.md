@@ -57,6 +57,8 @@ Compact PCB form factor with proper ground and power separation
 ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/Mixed%20Signal%20PCB%20Design/PCB%20Layout%201.png?raw=true)
 
 ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/Mixed%20Signal%20PCB%20Design/Power%20Supply%20Unit.png?raw=true)
+
+![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/Mixed%20Signal%20PCB%20Design/MCU.png?raw=true)
  
 
 
