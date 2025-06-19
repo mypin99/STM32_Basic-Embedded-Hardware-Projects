@@ -1,12 +1,12 @@
-USB to UART Bridge Converter – Enhanced with ESD Protection
+## USB to UART Bridge Converter – Enhanced with ESD Protection
 
-Overview
+## Overview
 
 This project is a custom-designed USB to UART bridge converter based on the CP2102 chip. It improves upon common commercial modules by incorporating robust ESD protection on all critical lines (RX, TX, VBUS, and USB differential pairs), increasing device longevity and overall reliability.
 
 The converter is ideal for embedded systems, development boards, or any USB-to-serial communication applications that require stability, USB compatibility, and protection from electrostatic damage.
 
-Key Features
+## Key Features
 
 CP2102 USB-to-UART Bridge
 
@@ -62,7 +62,7 @@ ESD Protection	TVS Diodes (on RX, TX, D+, D−, VBUS)
 ![image.alt](https://github.com/mypin99/STM32_Basic-Embedded-Hardware-Projects/blob/main/USBtoUART%20Converter/USBtoUART%203D%20View.png?raw=true)
 
 
-Applications
+## Applications
 
 Microcontroller communication via USB
 
@@ -73,7 +73,7 @@ Debugging embedded systems
 Safe serial communication in electrostatic environments
 
 
-Schematic and PCB
+## Schematic and PCB
 
 This project includes both the schematic and PCB layout files.
 
@@ -84,7 +84,7 @@ This project includes both the schematic and PCB layout files.
 ✅ TVS diode placement for maximum protection
 
 
-Future Improvements
+## Future Improvements
 
 Add LED indicators for TX/RX activity
 
